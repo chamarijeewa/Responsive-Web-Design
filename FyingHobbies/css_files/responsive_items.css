@@ -1,0 +1,205 @@
+/* responsive_items.css */
+
+
+/*  1024 to 1280 pixels */
+
+@media screen and (max-width: 1280px) {
+	.navbar {
+		width: 100%;
+	}
+	nav {
+		width: 100%;
+	}
+	.navbar a {
+		font-size: 24px;
+	}
+	.navbar .dropdown .dropbtn {
+		font-size: 24px;
+	}
+	.desc {
+		padding: 7%;
+	}
+	.dropdown-content {
+		width: 52%;
+	}
+	.column {
+		width: 33%;
+		padding: 0px;
+	}
+	.column a {
+		font-size: inherit;
+	}
+	.contact {
+		margin: 0;
+		float: none;
+		width: 96.875%;
+	}
+	#section1 .container {
+		padding: 8%;
+	}
+	td {
+		font-size: x-large;
+	}
+	#section2 #logo1 {
+		margin: 0;
+	}
+	#section2 {
+		width: 100%;
+	}
+	#section2 .copyright {
+		margin: 0;
+		margin-top: 5%;
+	}
+	#img1 {
+		display: block;
+		margin: 0;
+		text-align: right;
+	}
+	#img2 {
+		display: block;
+		margin: 0;
+		text-align: center;
+	}
+	div.wrapper {
+		min-width: 1024px;
+	}
+}
+
+
+/*  500 to 1024 pixels */
+
+@media screen and (max-width: 1024px) {
+	.navbar {
+		width: 100%;
+	}
+	nav {
+		width: 100%;
+	}
+	.navbar a {
+		font-size: 24px;
+	}
+	.navbar .dropdown .dropbtn {
+		font-size: 24px;
+	}
+	.desc {
+		padding: 7%;
+	}
+	.dropdown-content {
+		width: 50%;
+	}
+	.column {
+		width: 33%;
+		padding: 0px;
+	}
+	.column a {
+		font-size: inherit;
+	}
+	.contact {
+		margin: 0;
+		float: none;
+		width: 95.875%;
+	}
+	#section1 .container {
+		padding: 6%;
+	}
+	td {
+		font-size: x-large;
+	}
+	#section2 #logo1 {
+		margin: 0;
+	}
+	#section2 {
+		width: 100%;
+	}
+	#section2 .copyright {
+		margin: -13px;
+		margin-top: 5%;
+	}
+	#img1 {
+		display: block;
+		margin: 0;
+		text-align: right;
+	}
+	#img2 {
+		display: block;
+		margin: 0;
+		text-align: center;
+	}
+	div.wrapper {
+		min-width: 500px;
+	}
+}
+
+
+/*  under 500 px  */
+
+@media screen and (max-width: 500px) {
+	.navbar {
+		width: 100%;
+	}
+	nav {
+		width: 31%;
+	}
+	.navbar a {
+		padding-top: 0.1%;
+		font-size: 18px;
+	}
+	.navbar .dropdown .dropbtn {
+		font-size: 18px;
+	}
+	.dropdown .dropbtn {
+		padding-top: 0.1%;
+	}
+	.dropdown-content {
+		width: 100%;
+	}
+	.column {
+		width: 33%;
+		padding: 0px;
+	}
+	.column a {
+		font-size: initial;
+	}
+	.desc {
+		padding: 7%;
+	}
+	.contact {
+		margin: 0;
+		float: none;
+		width: 92%;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	#section1 .container {
+		padding: 6%;
+	}
+	td {
+		font-size: small;
+	}
+	#section2 {
+		width: 100%;
+		padding-top: 3%;
+	}
+	#section2 .copyright {
+		margin: -13px;
+		margin-top: 11%;
+	}
+	#section2 #logo1 {
+		margin: 0;
+		margin-right: 15%;
+	}
+	#img1 {
+		display: block;
+		margin: 0;
+		text-align: center;
+	}
+	#img2 {
+		display: block;
+		margin: 0;
+		text-align: center;
+	}
+	#img2 img {
+		width: 44%;
+	}
+}

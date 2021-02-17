@@ -1,0 +1,187 @@
+/* responsive_mainItems.css */
+
+
+/*  1024 to 1280 pixels */
+
+@media screen and (max-width: 1280px) {
+	.navbar {
+		width: 100%;
+	}
+	.navbar a {
+		font-size: 24px;
+	}
+	.navbar .dropdown .dropbtn {
+		font-size: 24px;
+	}
+	nav {
+		width: 100%;
+	}
+	.dropdown-content {
+		width: 52%;
+	}
+	.column {
+		width: 33%;
+		padding: 0px;
+	}
+	.column a {
+		font-size: inherit;
+	}
+	#section2 .gallery {
+		margin: auto;
+		margin-top: 10%;
+		height: 340px;
+		width: 29%;
+		margin-left: 3%;
+	}
+	#section2 .imgAlign {
+		margin: auto;
+		margin-top: -10%;
+	}
+	#section3 {
+		width: 100%;
+		padding-top: 3%;
+	}
+	#section3 .copyright {
+		margin: -13px;
+		margin-top: 5%;
+	}
+	#section3 #logo1 {
+		margin: 0;
+	}
+	#img1 {
+		display: block;
+		margin: 0;
+		text-align: right;
+	}
+	div.wrapper {
+		min-width: 1024px;
+	}
+}
+
+
+/*  500 to 1024 pixels */
+
+@media screen and (max-width: 1024px) {
+	.navbar {
+		width: 100%;
+	}
+	.navbar a {
+		font-size: 24px;
+	}
+	.navbar .dropdown .dropbtn {
+		font-size: 24px;
+	}
+	nav {
+		width: 100%;
+	}
+	.dropdown-content {
+		width: 50%;
+	}
+	.column {
+		width: 33%;
+		padding: 0px;
+	}
+	.contact {
+		margin: 0;
+		float: none;
+		width: 96.094%;
+	}
+	#section2 .gallery {
+		margin: auto;
+		margin-top: 10%;
+		height: 340px;
+		width: 29%;
+		margin-left: 3%;
+	}
+	#section2 .imgAlign {
+		margin: auto;
+		margin-top: -10%;
+	}
+	#section3 {
+		width: 100%;
+		padding-top: 3%;
+	}
+	#section3 .copyright {
+		margin: -13px;
+		margin-top: 5%;
+	}
+	#section3 #logo1 {
+		margin: 0;
+	}
+	#img1 {
+		display: block;
+		margin: 0;
+		text-align: right;
+	}
+	div.wrapper {
+		min-width: 500px;
+	}
+}
+
+
+/*  under 500 px  */
+
+@media screen and (max-width: 500px) {
+	.navbar {
+		width: 100%;
+	}
+	nav {
+		width: 29%;
+	}
+	.navbar a {
+		padding-top: 0.1%;
+		font-size: 18px;
+	}
+	.navbar .dropdown .dropbtn {
+		font-size: 18px;
+	}
+	.dropdown .dropbtn {
+		padding-top: 0.1%;
+	}
+	.dropdown-content {
+		width: 100%;
+	}
+	.column {
+		width: 33%;
+		padding: 0px;
+	}
+	.column a {
+		font-size: initial;
+	}
+	.desc {
+		padding: 7%;
+	}
+	.contact {
+		margin: 0;
+		float: none;
+		width: 92%;
+	}
+	#section2 .gallery {
+		margin: auto;
+		margin-top: 10%;
+		height: 220px;
+		width: 29%;
+		margin-left: 3%;
+	}
+	#section2 .imgAlign {
+		margin: auto;
+		margin-top: -8%;
+	}
+	#section3 {
+		width: 100%;
+		padding-top: 3%;
+	}
+	#section3 .copyright {
+		margin: -13px;
+		margin-top: 11%;
+	}
+	#section3 #logo1 {
+		margin: 0;
+		margin-right: 15%;
+	}
+	#img1 {
+		display: block;
+		margin: 0;
+		text-align: center;
+	}
+}
